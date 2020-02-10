@@ -54,7 +54,7 @@ The angles permitted to rotoinversion are the same as those for the pure rotatio
 ### Representing $$\bar{n}$$ by other symmetries
 
 | rotoinversion | replacement | equivalent rottreflection |
-|:--:|--|:-:|
+|:--:|--|:--:|
 |$$\bar{1} $$| $$i$$: inversion |$$\bar{2} $$|
 |$$\bar{2} $$| $$m$$: reflection |$$\bar{1 } $$|
 |$$\bar{3} $$| $$3i$$: a 3-fold proper rotation and an inversion|$$\bar{6 } $$|
