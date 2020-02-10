@@ -1,8 +1,8 @@
 ---
 title: "Crystal Geometry Notes: The Point Groups"
-categories:
- - Public
-tags: [Crystal Geometry, Notes, Point Group]
+categories: 
+ - Note
+tags: [Crystal Geometry, Point Group]
 ---
 
 ## Basic Model
@@ -74,119 +74,8 @@ $$
 
 Another combination of $$I$$ and $$P$$ is that two axes can coincide, denoted as $$\frac{P}{I}\frac{P}{I}\frac{P}{I}$$.
 
+There are 21 distinct combinations involving improper rotation.
+
 ## Point Groups
 
 There are 32 point symmetries in total. They are the products of proper and improper rotations. Translation is not discussed here.
-
-### Table
-TODO:A whole table will be added here 
-
-Each group will be simply discussed in the following parts. The trick here is to consider only 2 operations. **There may exist errors**.
-
-### Tricilinc (2)
-$$1$$
-: It will leave the motif alone.
-
-$$\bar{1} $$
-: Inversion.
-
-### Monoclinic (3)
-$$2 $$
-: A rotation about an axis through $$\pi$$.
-
-$$\bar{2}=m $$
-: Reflection.
-
-$$\frac{2}{m} $$
-: A 2-fold proper rotation axis coincides with a 2-fold improper rotation axis. It will produce four congruent points.
-
-### Orthorhombic (3)
-$$222 $$
-: Three 2-fold proper rotation, axes are perpendicular to each other. In general it will produce 4 congruent points.
-
-$$2mm $$
-: A 2-fold proper rotation combines with two 2-fold improper rotation (reflection). Two mirror planes are perpendicular to each other, the meeting line is the axis of the 2-fold rotation. In general it should produce 4 congruent points.
-
-$$\frac2{m} \frac2{m} \frac2{m} $$
-: In genereal it should produces 8 congruent points. 4 from $$222$$, and the extra reflections double them.
-
-
-### Trigonal (5)
-$$3 $$
-: A proper rotation through $$\frac{2\pi}{3}$$.
-
-$$\bar{3} $$
-: A 3-fold proper rotation and an inversion. It produces 3 congruent points and 3 enantimorphic ones.
-
-$$32 $$
-: It should produces 6 congruent points.
-
-$$3m $$
-: Be careful, this  is not $$\frac{3}{m}$$. It will produces 3 congruent points and 3 enantimorphic points.
-
-$$\bar{3} \frac{2}{m}$$
-: 
-
-### Tetragonal (7)
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-
-### Hexagonal (7)
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-
-### Isometric (5)
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-$$ $$
-: 
-
-
