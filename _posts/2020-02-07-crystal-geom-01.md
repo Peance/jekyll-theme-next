@@ -1,26 +1,33 @@
 ---
-title: "Crystal Geometry Notes: The Point Groups"
-categories: 
- - Note
+title: "Crystal Geometry Notes: Point Groups"
+categories: Note
 tags: [Crystal Geometry, Point Group]
+date: 2020-03-10
 ---
 
-## Basic Model
+# Basic Model
 Crystal geometry aims to describe the patterns of ordered congruent motifs. A minimal set of motifs is called cell. A cell can be translated, rotated or reflected with some limitations.
 
 <!-- more -->
-## Translation
+# Translation
 A motif can be traslated in three directions. The natural way to describe such operation, of course, is using vector:
-\$$ 
+\$$  
 T=u\mathbf{t_1}+v\mathbf{t_2}+w\mathbf{t_3} 
 $$
 
-## Proper Rotation
+## Lattice
+We can choose a cell and use its sides as the basic translation vectors. Then we can build a coordinate system based on the three translation vectors. This system is called lattice.
+
+The cell usually represents the symmetry of the motifs in a way. There are 7 kinds of cells. Each kind of cell can have several types, and there are 14 types of 3D lattice.
+
+*We are talking Bravais lattice here. In fact, we can add some types of lattice when needed.*
+
+# Proper Rotation
 A motif can be rotated about an axis through an angle. When combined with translation, the angle is restricted to $$ 2\pi, \pi, \frac23\pi, \frac{\pi}2  \text{ and } \frac{\pi}3 $$ for the rotated motif has to be a duplicate of a translated motif. 
 
 Traditionally, we use numbers $$ 1,2,3,4,6 $$ to indicate the rotation.
 
-### Combination
+## Combination
 
 When two operations are combined, a third arised as a consequence.
 
@@ -33,7 +40,7 @@ $$
 
 These are the standard representations for these axial-symmetry combinations.
 
-## Improper Rotation
+# Improper Rotation
 
 Your right hand turns to left hand in the mirror. Such an operation is called an operation of *second sort*. Another kind of operation of second sort is inversion.
 
@@ -51,7 +58,7 @@ An operation of the second sort produces an enantiomorphic object. If the same o
 
 The angles permitted to rotoinversion are the same as those for the pure rotation operation. We place a bar over the numbers to indicate such operations.
 
-### Representing $$\bar{n}$$ by other symmetries
+## Representing $$\bar{n}$$ by other symmetries
 
 | rotoinversion | replacement | equivalent rottreflection |
 |:--:|--|:--:|
@@ -61,7 +68,7 @@ The angles permitted to rotoinversion are the same as those for the pure rotatio
 |$$\bar{4} $$| $$-$$ |$$\bar{4 } $$|
 |$$\bar{6} $$| $$\frac{3}{m}$$: a 3-fold proper rotation and a reflection |$$\bar{3 } $$|
 
-### Combination
+## Combination
 
 Let $$P$$ be a proper rotation and $$I$$ a improper one. We already know that when combining two proper rotations, a third proper rotations will arises, so the combination is $$PPP$$.
 
@@ -76,6 +83,7 @@ Another combination of $$I$$ and $$P$$ is that two axes can coincide, denoted as
 
 There are 21 distinct combinations involving improper rotation.
 
-## Point Groups
+# Point Groups
 
-There are 32 point symmetries in total. They are the products of proper and improper rotations. Translation is not discussed here.
+There are 32 point symmetries in total. They are the products of proper and improper rotations. 
+
