@@ -1,8 +1,9 @@
 ---
 title: "Crystal Geometry Notes: Point Groups"
-categories: Note
-tags: [Crystal Geometry, Point Group]
-date: 2020-03-10
+categories: 
+    - Crystal Geometry
+tags: 
+    - Point Group
 ---
 
 # Basic Model

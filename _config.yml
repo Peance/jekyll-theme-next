@@ -21,12 +21,12 @@ permalink: pretty
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
+archive:
+  paginate: 20
+  paginate_path: "/page:num/"
+category:
+  paginate: 20
+  paginate_path: "/page:num/"
 #tag:
   #paginate: 10
   #paginate_path: "/page:num/"
@@ -118,7 +118,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   archives: /archives/
   tags: /tags/
@@ -311,9 +311,9 @@ auto_excerpt:
 # Post meta display settings
 post_meta:
   item_text: true
-  created_at: true
-  updated_at: true
-  categories: false
+  created_at: false
+  updated_at: false
+  categories: true
 
 # Post wordcount display settings
 post_wordcount:
