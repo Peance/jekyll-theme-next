@@ -14,12 +14,12 @@ A class note for Undergraduate Lie Algebra given by Professor Changzheng Li, Sun
 The first thing we need is the definition of algebra, now that we are talking about Lie **algebra**.A vector space $$L$$ over field $$F$$ is called a **$$L$$-algebra** if there exists an bilinear function:
 \$$
     (x,y): L \times L \rightarrow L 
-\$$
+$$
 
 Bilinear means that $$(,)$$ satisfies:
-1. $$(a+b,c) = (a,c)+(b,c)$$
-2. $$(a,b+c) = (a,b)+(a,c)$$
-3. $$(\lambda a,b) =\lambda(a,b) = (a,\lambda b)$$
+1. \$$(a+b,c) = (a,c)+(b,c)$$
+2. \$$(a,b+c) = (a,b)+(a,c)$$
+3. \$$(\lambda a,b) =\lambda(a,b) = (a,\lambda b)$$
 
 
 We will use $$[,]$$ to denote the $$(,)$$ on Lie algebra.The natural question is, what distinguishes Lie algebra from other algebras? The answer would be the nature of $$[,]$$. 
@@ -31,8 +31,9 @@ Please notice that in this section we are using examples which lead to desired p
 Lie algebra is roughly the combination of Calculus and Algebra. The differential has such a property:
 \$$
     \operatorname{d}(fg) = (\operatorname{d}f)g + f(\operatorname{d}g)
-\$$
-and we want our product on Lie algebra holding a similar property. That is, we would like to define the product $$a*b$$ as $$\partial_a b$$, so that $$\partial_a(b*c)=(\partial_ab)*c+b*(\partial_ac)$$.
+$$
+
+Now, we want our product on Lie algebra holding a similar property. That is, we would like to define the product $$a*b$$ as $$\partial_a b$$, so that $$\partial_a(b*c)=(\partial_ab)*c+b*(\partial_ac)$$.
 
 Lie algebra is deeply connected to matrices, which would be shown in the following dections. Let's put $$\partial_a b$$ and matrices together and see what we can get.
 
@@ -46,8 +47,8 @@ $$
 $$
 
 This equation will lead to two properties:
-1. $$\partial_ab=ab-ba$$
-2. $$\partial_a(b*c)=(\partial_ab)*c+b*(\partial_ac)$$ 
+1. \$$ \partial_ab=ab-ba $$
+2. \$$ \partial_a(b*c)=(\partial_ab)*c+b*(\partial_ac) $$ 
 
 To get the first property, let $$A(t)*b = A(t)bA(t)^{-1}$$, then we have:
 
@@ -81,8 +82,12 @@ $$
 Now we can give a rigious definition of Lie algebra. If you feel confused of this definiton, please check the above section.
 
 An algebra $$(L,[,])$$ is called a **Lie algebra** if it satisfies:
-1. $$[a,a]=0$$ i.e. $$ [a,b]=-[b,a]$$ \mn{Consider $$a,b$$ as the tangent vectors of a curve. Then $$[a,a]$$ must be a constant, and the only universal constant is 0.}
-2. $$[a,[b,c]] = [[a,b],c]+[b,[a,c]]$$ (Jacobi identity)
+1. \$$ [a,a]=0 \operatorname{i.e.} [a,b]=-[b,a] $$
+2. \$$ [a,[b,c]] = [[a,b],c]+[b,[a,c]] $$ 
+
+Another example to help understand the first property: Consider $$a,b$$ as the tangent vectors of a curve. Then $$[a,a]$$ must be a constant, and the only universal constant is 0.
+
+As for property 2, Jacobi identity, the first product looks like derivative while the send looks like normoal product.
 
 I would like to give defnitions of homomorphism and isomorphism here.
 
@@ -101,7 +106,7 @@ In this case, $$[\lambda e, \mu e] = \lambda \mu  [e,e] =0$$, this algebra is tr
 In this case, $$L = Fe_1 + Fe_2$$. If $$[e_1, e_2]\neq 0$$, denoted $$[e_1,e_2]$$ as $$x$$, and we have $$x = ae_1+be_2$$. Then $$\forall y \in L$$:
 \$$
 [x,y] = [ae_1+be_2,ce_1+de_2]=(ad-bc)[e_1,e_2]=(ad-bc)x.
-\$$
+$$
 
 Then $$L$$ is isomorphic to $$L^{\prime}= Fu\oplus Fv$$, where $$[u,v] = u$$.
 

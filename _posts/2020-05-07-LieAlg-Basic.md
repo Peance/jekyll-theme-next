@@ -59,4 +59,4 @@ $$L^{\prime}$$ is a Lie algebra: we can define $$[,]:L' \times L' \rightarrow L'
 Construct $$f$$ by setting $$f(x) = u$$, $$f(1/\lambda y) = v$$. It's easy to show that $$f$$ is an isomorphism between Lie algebra. 
 
 # Read more
-[Lie Algebra Class Note 1]({ % posturl 2020-05-07-LieAlg-Week1  %})
+[Lie Algebra Class Note 1](https://peance.github.io/note/2020/05/07/LieAlg-Week1/)
