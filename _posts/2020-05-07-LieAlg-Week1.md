@@ -4,6 +4,8 @@ categories:
     - Note
 tags: 
     - Lie Algebra
+    - 20Sp Undergraduate Lie Algebra
+    - GTM9
 ---
 
 A class note for Undergraduate Lie Algebra given by Professor Changzheng Li, Sun Yat-Sen University. It requires only knowledge in Linear Algebra and Calculus. 
