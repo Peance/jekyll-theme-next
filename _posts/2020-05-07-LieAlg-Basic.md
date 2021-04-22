@@ -4,7 +4,6 @@ categories:
     - Lie Algebra
 tags: 
     - Lie Algebra
-    - Slip-box
 ---
 
 In this post we will give the definition of Lie Algebra as well as some other basic concepts.

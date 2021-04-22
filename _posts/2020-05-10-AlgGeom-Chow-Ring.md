@@ -4,7 +4,6 @@ categories:
     - Note
 tags: 
     - Algebraic Geometry
-    - 3264
 ---
 
 This post is a reading note of *3264 & All That Intersection Theory in Algebraic Geometry*.
