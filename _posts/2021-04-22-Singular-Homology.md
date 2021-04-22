@@ -1,9 +1,9 @@
 ---
-title: "Test of math render"
+title: "Singular Homology"
 categories: 
-    - Tool
+    - Algebraic Topology
 tags: 
-    - Github Pages
+    - Homology
 ---
 
 Given a space, we want to study it "step by step". We want to sort out the points, the edges, the faces etc. All those things are connected: edges connecting points,  faces gluing to edges etc, and those connecting can be viewed as maps. In algebra, such a long chain is called a ***chain complex***, and our first goal is to assign a chain complex to a given space. Then we can use homology to understand the maps. 
@@ -40,14 +40,14 @@ $$
 \dots \xleftarrow{d_i}\hom_{Top}(\Delta^n_{top},X) \xleftarrow{d_i} \hom_{Top}(\Delta^{n+1}_{top},X) \xleftarrow{d_i}\dots 
 $$
 
-For example, $Sing_0(X):=\hom_{Top}(\Delta^{0}_{top},X)$ is set of points of $X$, and $Sing_1(X):=\hom_{Top}(\Delta^{1}_{top},X)$ are paths in $X$. $f: \Delta^{1}_{top}\rightarrow X$ is sent to $f(1)\in X$ by $d_0$.
+For example, $Sing_0 (X)$ is set of points of $X$, and $Sing_1(X)$ are paths in $X$. Now, $f: \Delta^{1}_{top}\rightarrow X$ is sent to $f(1)\in X$ by $d_0$.
 
 ## Singular chain complex
 
 Recall that for each set $S$, we can find a free abelian group $\mathbb{Z}(S)$ such that every map from $S$ to any abelian group $G$ factors through $\mathbb{Z}(S)$.  We abelianize the singular simplicial set to get a chain of abelian groups: 
 
 $$
-C_n(X;\mathbb{Z}):=\mathbb{Z}Sing_n(X)
+C_n(X;\mathbb{Z}):=\mathbb{Z}\{Sing_n(X)\}
 $$
 
 This thing is not a chain complex yet, we still need a differential map. It is of course built upon the face maps:
@@ -103,7 +103,7 @@ where $x_0\sim x_1$ if there's a path connecting them.
 
 ### Disjoint spaces
 
-Claim: $\mathbb{Z}\\{\amalg_{\lambda\in \Lambda} S_\lambda\\}\cong \bigoplus_{\in \Lambda} \mathbb{Z}\\{S_\lambda\\}$, where $\amalg$ is the disjoint union.
+Claim: $\mathbb{Z}\{\amalg_{\lambda\in \Lambda} S_\lambda\}\cong \bigoplus_{\in \Lambda} \mathbb{Z}\{S_\lambda\}$, where $\amalg$ is the disjoint union.
 
 The claim follows from the following facts:
 1. free abelian group functor preserves **co**products;
@@ -114,4 +114,4 @@ where $A_\bullet= \bigoplus_{\lambda \in \Lambda} A_\bullet^\lambda$ of chain co
 
 ## Preview
 
-The next question is: What spaces for which we can compute  $H_n(X;\mathbb{Z})$ for all $n$?
+The next question is: For what kind of spaces can we compute $H_n(X;\mathbb{Z})$ for all $n$?
