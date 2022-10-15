@@ -8,6 +8,8 @@ tags:
 
 Given a space, we want to study it "step by step". We want to sort out the points, the edges, the faces etc. All those things are connected: edges connecting points,  faces gluing to edges etc, and those connecting can be viewed as maps. In algebra, such a long chain is called a ***chain complex***, and our first goal is to assign a chain complex to a given space. Then we can use homology to understand the maps. 
 
+This series is abondoned. 
+
 <!--more-->
 
 Now we have a topological space $X$.
@@ -115,3 +117,4 @@ where $A_\bullet= \bigoplus_{\lambda \in \Lambda} A_\bullet^\lambda$ of chain co
 ## Preview
 
 The next question is: For what kind of spaces can we compute $H_n(X;\mathbb{Z})$ for all $n$?
+
