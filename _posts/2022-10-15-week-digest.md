@@ -1,9 +1,7 @@
 ---
-title: "Week: Oct 9 to Oct 15"
+title: "2022 Week 41 Digest"
 categories: 
-    - Journal   
-tags: 
-    - week
+    - Weekly Digest   
 ---
 
 In the previous week I read:
